@@ -1,0 +1,43 @@
+<div class="container ml-auto mr-auto mt-5">
+    <form [formGroup]='forma' class="prueba" style=" height: 200px !important;" (ngSubmit)="filtrarTabla()">
+        <div class="card" style="padding: 20px;">
+            <div class="col-md-4">
+                <p><strong>PROCESA ARCHIVOS ART</strong></p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p style="margin-bottom: 0.8rem">Tipo de documento</p>
+                        <mat-form-field class="input-sel" style="height: 48px;width: 200px;">
+                            <mat-label style="color: #942739;">xxxx</mat-label>
+                            <select matNativeControl required>
+                                <option value="volvo">documento a</option>
+                                <option value="saab">documento b</option>
+                                <option value="mercedes">documento c</option>
+                                <option value="audi">documento d</option>
+                            </select>
+                        </mat-form-field>
+                    </div>
+                    <div class="col">
+                        <mat-form-field style="width: 160px;margin-top: 24px">
+                            <!-- <button style="margin-top: 37px;
+                        height: 50px!important;" mat-mini-fab aria-label="Example icon-button with a heart icon"> -->
+                            <a mat-mini-fab a href=".">Descargar planilla</a>
+                            <mat-icon>arrow_downward</mat-icon>
+                            <!-- </button> -->
+                        </mat-form-field>
+                    </div>
+                    <div class="col">
+                        <label for="avatar">Subir archivo:</label>
+                        <input class="input-btn" style="margin-top: 8.4%;" type="file" id="avatar" name="avatar"
+                            accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                    </div>
+                    <div class="col">
+                        <button class="input-btn" style="margin-left: 25px !important; margin-top: 25% !important;"
+                            type="submit">Procesar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

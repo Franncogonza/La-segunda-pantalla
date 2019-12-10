@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; 
+       background: #eee8e8e0;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* You can add global styles to this file, and also import other style files */
+/* @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+.main-container {
+    margin-top: 50px;
+}
+
+.mat-form-field-underline {
+    height: 0px !important;
+}
+
+.mat-form-field {
+    line-height: 2.5;
+}
+
+.mat-select-panel {
+    border-radius: 20px !important;
+    margin-top: 40px !important;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-ripple {
+    height: 0px !important;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom:0px !important;
+}
+
+#barraBusqueda div.mat-form-field-wrapper div.mat-form-field-flex div.mat-form-field-infix{
+    border: 0px !important;
+}
+
+mat-button-toggle-group#marcasPrueba .mat-button-toggle-appearance-standard .mat-button-toggle-label-content{
+    padding: 0px;
+}
+
+.mat-button-toggle {
+    border: 0px !important;
+    border-color: white !important;
+}
+
+.mat-expansion-panel {
+    border-radius: 0px !important;
+}
+
+.input-txt {
+  padding: 10px !important;
+  border: 1px solid #942739 !important;
+  -webkit-border-radius: 1px !important;
+  border-radius: 1px !important;
+  font: normal 16px/normal "open-sans", Helvetica, sans-serif !important;
+  margin: 0px !important;
+}
+
+.input-sel {
+    padding: 0px 10px 5px 10px !important;
+    border: 1px solid #942739 !important;
+    -webkit-border-radius: 1px !important;
+    border-radius: 1px !important;
+    font: normal 16px/normal "open-sans", Helvetica, sans-serif !important;
+    margin: 0px !important;
+  }
+
+.input-btn{
+  cursor: pointer !important;
+  padding: 10px 30px !important;
+  border: 1px solid #942739 !important;
+  -webkit-border-radius: 1px !important;
+  border-radius: 1px !important;
+  font: normal 16px/normal "open-sans", Helvetica, sans-serif !important;
+  color: rgba(255,255,255,1) !important;
+  margin-left: 0px !important;
+  margin-top: 6.125px !important;
+  background: #942739 !important;
+}
+.input-btn-gray{
+  cursor: pointer !important;
+  padding: 10px 30px !important;
+  border: 1px solid gray !important;
+  -webkit-border-radius: 1px !important;
+  border-radius: 1px !important;
+  font: normal 16px/normal "open-sans", Helvetica, sans-serif !important;
+  color: rgba(255,255,255,1) !important;
+  margin-left: 0px !important;
+  margin-top: 6.125px !important;
+  background: gray !important;
+}
